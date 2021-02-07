@@ -42,7 +42,7 @@ namespace Primera
     class SortTest
     {
         
-        private IQueryable<FunctionsTask1> SortArray<TKey>(Expression<Func<FunctionsTask1, TKey>> sortBy, SortOrder typeSort, IQueryable<FunctionsTask1> array)
+        public IQueryable<FunctionsTask1> SortArray<TKey>(Expression<Func<FunctionsTask1, TKey>> sortBy, SortOrder typeSort, IQueryable<FunctionsTask1> array)
         {
             return typeSort switch
             {
