@@ -39,17 +39,17 @@ namespace Primera
         }
     }
 
-    class SortTest
-    {
-        
-        public IQueryable<FunctionsTask1> SortArray<TKey>(Expression<Func<FunctionsTask1, TKey>> sortBy, SortOrder typeSort, IQueryable<FunctionsTask1> array)
-        {
-            return typeSort switch
-            {
-                SortOrder.Desc => array.OrderByDescending(sortBy),
-                _ => array.OrderBy(sortBy),
-            };
-        }
-        //array = SortTest(a => a.Name, SortOrder.Asc, authors);
-    }
+    //class SortTest
+    //{
+
+    //    public IQueryable<FunctionsTask1> SortArray<TKey>(Expression<Func<FunctionsTask1, TKey>> sortBy, SortOrder typeSort, IQueryable<FunctionsTask1> array)
+    //    {
+    //        return typeSort switch
+    //        {
+    //            SortOrder.Desc => array.OrderByDescending(sortBy),
+    //            _ => array.OrderBy(sortBy),
+    //        };
+    //    }
+    //    array = SortTest(a => a.Name, SortOrder.Asc, authors);
+    //}
 }
