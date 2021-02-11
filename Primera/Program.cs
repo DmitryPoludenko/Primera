@@ -8,8 +8,8 @@ namespace Primera
         {
             Console.WriteLine("Hello World!");
 
-            //Console.WriteLine(Functions.MultArithmeticElements(5, 3, 4));
-            //Console.WriteLine(Functions.SumGeometricElements(100, 0.5, 20));
+            Console.WriteLine(Functions.MultArithmeticElements(5, 3, 4));
+            Console.WriteLine(Functions.SumGeometricElements(100, 0.5, 20));
 
 
             //int[] a = { 1, 2, 3, 4, 5 };
